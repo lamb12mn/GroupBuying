@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "iconfont"; /* Project id 2672579 */
+    src: url('//at.alicdn.com/t/font_2672579_ln4i3u4t6p.woff2?t=1629372886214') format('woff2'),
+         url('//at.alicdn.com/t/font_2672579_ln4i3u4t6p.woff?t=1629372886214') format('woff'),
+         url('//at.alicdn.com/t/font_2672579_ln4i3u4t6p.ttf?t=1629372886214') format('truetype');
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-xinlangweibo:before {
+    content: "\e67a";
+  }
+  
+  .icon-QQ:before {
+    content: "\e610";
+  }
+  
+  .icon-gantanhao:before {
+    content: "\e64f";
+  }
+  
+  .icon-cuowu:before {
+    content: "\e60a";
+  }
+  
+  .icon-gou1:before {
+    content: "\e866";
+  }
+  
+  .icon-wuxing1:before {
+    content: "\e609";
+  }
+  
+  .icon-wuxinghaoping:before {
+    content: "\e61d";
+  }
+  
+  .icon-back:before {
+    content: "\e608";
+  }
+  
+  .icon-jiazhuang:before {
+    content: "\e61c";
+  }
+  
+  .icon-jiudian:before {
+    content: "\e61e";
+  }
+  
+  .icon-diamond1:before {
+    content: "\e600";
+  }
+  
+  .icon-yundongjianshen:before {
+    content: "\e601";
+  }
+  
+  .icon-ktv:before {
+    content: "\e602";
+  }
+  
+  .icon-shenghuofuwu:before {
+    content: "\e758";
+  }
+  
+  .icon-maoyandianying:before {
+    content: "\e67e";
+  }
+  
+  .icon-yiliaojiankang:before {
+    content: "\e61a";
+  }
+  
+  .icon-qinzi:before {
+    content: "\e616";
+  }
+  
+  .icon-gewujiubakafeiting_x:before {
+    content: "\e68e";
+  }
+  
+  .icon-liren:before {
+    content: "\e603";
+  }
+  
+  .icon-jipiaohuochepiao:before {
+    content: "\e638";
+  }
+  
+  .icon-you:before {
+    content: "\e604";
+  }
+  
+  .icon-xuexipeixun2:before {
+    content: "\e612";
+  }
+  
+  .icon-waimai:before {
+    content: "\e60f";
+  }
+  
+  .icon-xiegan:before {
+    content: "\e605";
+  }
+  
+  .icon-dingwei:before {
+    content: "\e606";
+  }
+  
+  .icon-xianxing_minsu:before {
+    content: "\e69d";
+  }
+  
+  .icon-ic_magnifying:before {
+    content: "\e6d6";
+  }
+  
+  .icon-fenzu:before {
+    content: "\e607";
+  }
+  
+  
