@@ -1,0 +1,105 @@
+.com_footer {
+    background: #f8f8f8;
+    margin-top: 40px;
+    height: 100%;
+   
+}
+
+.com_footer .footer-content {
+    width: 1190px;
+    height: 200px;
+    margin: 0 auto;
+    color: #333;
+    font-size: 12px;
+    line-height: 2;
+    box-sizing: border-box;
+    text-align: left;
+   
+}
+
+.com_footer .footer-content .f-c-link {
+    padding: 40px 45px;
+    
+}
+
+
+.footer-content .f-c-link .f-c-column{
+    width: 20%;
+    height: 600px;
+    float: left;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+   
+}
+.footer-content .f-c-link  dl{
+    padding-bottom: 20px;
+color: #666;
+}
+.footer-content .f-c-link .f-c-column dl dd a:hover{
+    color: #FE8C00;
+}
+.footer-content .f-c-link dl dt{
+    color: #333;
+font-size: 14px;
+font-weight: 500;
+}
+/* 版权区域 */
+.f-c-right{
+    background: #f8f8f8;
+    margin-top: 40px;
+    height: 100%;
+}
+.f-c-right .f-c-r-left{
+    width: 47%;
+    float: left;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.f-c-r-left p  a{
+    margin-left: 20px;
+}
+.f-c-r-left p  a:hover{
+    color: #FE8C00;
+}
+.f-c-right .f-c-r-right{
+    width: 47%;
+    float: right;
+    background: #f8f8f8;
+    padding-top: 15px;
+    height: 100%;
+}
+.f-c-right .f-c-r-right .r-right-second .im2{
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -1000px;
+    width: 109px;
+    height: 38px;
+    background-image:url(../img/footer.png);
+    background-position: 0 -167px;
+    background-repeat: no-repeat;
+    margin-right: 2px;
+    margin-left: 10px;
+}
+.f-c-right .f-c-r-right .r-right-second .im1{
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -1000px;
+    width: 109px;
+    height: 38px;
+    background-image:url(../img/footer.png);
+    background-position: 0 -40px;
+    background-repeat: no-repeat;
+    margin-right: 2px;
+    margin-left: 10px;
+}
+.f-c-right .f-c-r-right div{
+    height: 40px;
+}
+.f-c-right .f-c-r-right div span,
+.f-c-right .f-c-r-right div a{
+    float: right;
+    height: 40px;
+}
+.f-c-right .f-c-r-right div a:hover{
+    color: #FE8C00;
+}

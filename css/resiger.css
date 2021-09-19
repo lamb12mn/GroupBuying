@@ -1,0 +1,134 @@
+.header{
+    width: 100%;
+    border-bottom: 2px solid #D8D8D8;
+    display: flex;
+}
+.header-main{
+    width: 1190px;
+    margin: 0 auto;
+    height: 67px;
+    padding-left: 20px;
+    /* border: 1px solid red; */
+}
+.header-main .header-main-left{
+    display: block;
+    width: 60%;
+    float: left;
+    /* background: lightcoral; */
+}
+.header-main .header-main-left h1{
+    font-size: 0;
+}
+.header-main .header-main-left a img{
+    width: 128px;
+    height: 47px;
+    padding-top: 10px;
+}
+.header-main .header-main-right{
+    float: right;
+    display: block;
+    width: 39%;
+    float: right;
+    /* background: blue; */
+}
+.header-main .header-main-right a{
+   line-height: 67px;
+}
+.header-main .header-main-right a:nth-child(2){
+    background: #ffc300;
+    width: 60px;
+    height: 30px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: black;
+
+}
+.content-container{
+    width: 100%;
+    height: 600px;
+    border-bottom: 2px solid #D8D8D8;
+}
+.content-container .content-container-main{
+    width: 1190px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+.content-container-main div {
+    margin-top: 20px;
+}
+.content-container-main div label{
+    font-size: 20px;
+    width: 100px;
+    float: left;
+    line-height: 40px;
+}
+.content-container-main div a{
+    font-size: 20px;
+    width: 100px;
+    line-height: 40px;
+    color: #ffd100;
+}
+.content-container-main div input{
+    margin-left: 20px;
+    width: 350px;
+    height: 40px;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+.content-container-main div button{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    background: #ffd100;
+    margin-left: 120px;
+}
+#tips {
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 260px;
+    border-right: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    background: #EEEEEE;
+    margin-left: 120px;
+}
+#tips b {
+    float: left;
+    width: 63px;
+    height: 20px;
+    color: white;
+    background: #EEEEEE;
+    margin-right: 2px;
+    line-height: 20px;
+    text-align: center;
+}
+.user-agreementinfo{
+    font-size: 20px;
+    width: 350px;
+    height: 40px;
+    margin-left: 120px;
+}
+.user-agreementinfo div{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    border: 1px solid #666;
+}
+.com_footer{
+    width: 100%;
+    margin-top: 130px;
+    text-align: center;
+    
+}
+.com_footer .copyright{
+    width: 1190px;
+    height: 40px;
+    margin: 0 auto;
+}
+.com_footer .copyright a{
+    color: #666;
+}

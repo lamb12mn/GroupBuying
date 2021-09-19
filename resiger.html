@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" sizes="16x16 32x32">
+    <link rel="stylesheet" href="./css/base.css">
+	<link rel="stylesheet" href="./css/com_header.css">
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="./css/com_footer.css">
+	<link rel="stylesheet" href="./css/resiger.css">
+    <link rel="stylesheet" href="./css/city03.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_2672579_0iqynmn916jk.css">
+    <title>注册 | 美团网</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-main">
+            <div class="header-main-left">
+                <h1>美团
+                    <a href="#"><img src="./img/logo.png" alt=""></a>
+                </h1>
+            </div>
+            <div class="header-main-right">
+                <a href="#">已有美团账号？</a>
+                <a href="./login.html" >登录</a>
+            </div>
+        </div>
+    </header>
+    <div class="content-container">
+        <div class="content-container-main">
+            <div>
+                <label for="">手机号</label>
+                <input type="text" name="phone">
+                <span class="display-none">
+					<i id="iconfont"></i>
+				</span>
+                <!-- <span>请输入您的手机号码</span> -->
+            </div>
+            <br/>
+            <div><button style="width: 170px;">免费获取短信动态码</button>
+                <span class="display-none">
+				</span>
+            </div>
+            <div>
+                <label for="">短信动态码</label>
+                <input type="text" id="code" name="code">
+                <span class="display-none">
+                
+                </span>
+            </div>
+            <div>
+                <label for="">创建密码</label>
+                <input type="password" id="password">
+                <span class="display-none">
+                
+                </span>
+            </div>
+            <div id="tips">
+                <b></b>
+                <b></b>
+                <b></b>
+                <b></b>
+            </div>
+            <p></p>
+            <div>
+                <label for="">确认密码</label>
+                <input type="password" id="passrepeat" name="passrepeat">
+                <span class="display-none">
+                
+                </span><br/>
+            </div>
+           
+            <div>
+              
+                <button type="button" id="registerto">完成注册并登录</button>
+            </div>
+            <div class="user-agreementinfo">
+                <!-- <div></div> -->
+               <!-- 我已阅读并同意 -->
+               <a href="">《美团用户协议》</a><a href="">《隐私政策》</a>
+               <!-- ，并授权美团使用该美团账号信息（如昵称、头像、收货地址）进行统一管理
+             -->
+            </div>
+            <footer class="com_footer">
+                <div class="copyright">
+                    <a href="#">©meituan.com  京ICP证070791号  京公网安备11010502025545号</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="./js/resiger.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,2762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico" sizes="16x16 32x32">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/com_header.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/com_footer.css">
+    <link rel="stylesheet" href="./css/resiger.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_2672579_0iqynmn916jk.css">
+    <title>北京美团网-北京美食_酒店_旅游_团购_电影_吃喝玩乐</title>
+</head>
+
+<body>
+    <!-- 首页头部 -->
+    <div class="header">
+        <div class="header-bar">
+            <!-- 头部左部内容 -->
+            <div class="header-bar-position">
+                <div class="header-bar-left">
+                    <span class="iconfont icon-dingwei"></span>
+                    <!-- 北京 -->
+                    <span style="font-size: 12px;" id="c0">北京</span>
+                    <a href="city.html" class="change-city">切换城市</a>
+                    [
+                    <span class="near-cities" id="cityArr">
+                        <a href="" class="city-guess" id="c1">门内</a>
+                        <a href="" class="city-guess" id="c2">大厂回族自治县</a>
+                        <a href="" class="city-guess" id="c3">廊坊</a>
+                    </span>
+                    ]
+                    <span class="user-entry">
+                        <a href="login.html" class="user-up" >立即登录</a>
+                        <a href="resiger.html" class="extra-entry" >注册</a>
+                    </span>
+                </div>
+                <!-- 头部右部内容 -->
+                <div class="header-bar-nav">
+                    <ul class="header-nav-first">
+                        <li class="haschild">
+                            <a href="">我的美团</a>
+                            <dl class="displaynone">
+                                <dd><a href="">我的订单</a></dd>
+                                <dd><a href="">我的收藏</a></dd>
+                                <dd><a href="">抵用券</a></dd>
+                                <dd><a href="">账户设置</a></dd>
+                            </dl>
+                        </li>
+
+                        <li class="haschild"><a href="">手机app</a></li>
+                        <li class="haschild"><a href="">商家中心</a>
+                            <dl class="displaynone">
+                                <dd>
+                                    <a href="#">美团餐饮商户中心</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">登录商家中心</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">美团智能收银</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">我想合作</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">手机免费开店</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">到店综合业务招募</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">餐饮合作社招募</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">商家申请开票</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">免费合作美团排队</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="haschild"><a href="">美团规则</a>
+                            <dl class="displaynone">
+                                <dd>
+                                    <a href="#">规则中心</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">规则目录</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">规则评议院</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="haschild"><a href="">网站导航</a>
+                            <dl class="displaynone">
+                                <dd>
+                                    <div>
+                                        酒店旅游
+                                    </div>
+                                    <span>国际机票</span>
+                                    <span>火车票</span>
+                                    <span>民宿</span>
+                                    <span>经济型酒店</span>
+                                    <span>主题酒店</span>
+                                    <span>商务酒店</span>
+                                    <span>公寓</span>
+                                    <span>豪华酒店</span>
+                                    <span>客栈</span>
+                                    <span>青年旅社</span>
+                                    <span>度假酒店</span>
+                                    <span>别墅</span>
+                                    <span>农家院</span>
+                                </dd>
+                                <dd>
+                                    <div>
+                                        吃美食
+                                    </div>
+                                    <span>烤鱼</span>
+                                    <span>特色小吃</span>
+                                    <span>烧烤</span>
+                                    <span>自助餐</span>
+                                    <span>火锅</span>
+                                    <span>代金券</span>
+                                </dd>
+                                <dd>
+                                    <div>
+                                        看电影
+                                    </div>
+                                    <span>热映电影</span>
+                                    <span>热门影院</span>
+                                    <span>热映电影口碑</span>
+                                    <span>最受期待电影</span>
+                                    <span>国内票房榜</span>
+                                    <span>北美票房榜</span>
+                                    <span>电影排行榜</span>
+                                </dd>
+                                <dd>
+                                    <div>
+                                        手机应用
+                                    </div>
+                                    <span>
+                                        <img src="./img/meituan.png" alt="美团" />
+                                    </span>
+                                    <span>
+                                        <img src="./img/waimai.png" alt="美团" />
+                                    </span>
+                                    <span>
+                                        <img src="./img/bar3.png" alt="美团" />
+                                    </span>
+                                    <span>
+                                        <img src="./img/dianping.png" alt="美团" />
+                                    </span>
+                                    <span>
+                                        <img src="./img/maoyan.png" alt="美团" />
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 网站logo和搜索 -->
+    <div class="header-content-main">
+        <div class="header-content">
+            <!-- logo -->
+            <div class="header-left">
+                <div class="header-title">
+                    <a href="index.html">
+                        <img src="img\logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- 头部搜索框 -->
+            <div class="header-right">
+                <div class="header-search-block">
+                    <input type="text" class="header-search-input" placeholder="搜索商家或地点">
+                    <button class="header-search-btn">
+                        <span class="iconfont icon-ic_magnifying" style="font-size: 18px;"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="home-header-links">
+                    <a href="">美团外卖</a>
+                    <a href="">猫眼电影</a>
+                    <a href="">美团酒店</a>
+                    <a href="">民宿／公寓</a>
+                    <a href="">商家入驻</a>
+                    <a href="">美团公益</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 轮播图区域 -->
+    <div class="banner-container">
+        <!-- 左部导航区域 -->
+        <div class="left-banner">
+            <!-- nav区域 -->
+            <div class="nav-container">
+                <div class="nav-title-wrapper">
+                    <span class="nav-title">全部分类</span>
+                </div>
+                <div class="nav-content-wrapper">
+                    <ul id="dropright">
+                        <li class="nav-li">
+                            <i class="iconfont icon-fenzu" style="color: #ff8506;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">美食</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone ">
+                                <div>
+                                    <span>
+                                        <a href="">美食</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>代金券</span>
+                                    <span>甜点饮品</span>
+                                    <span>火锅自助</span>
+                                    <span>小吃</span>
+                                    <span>快餐</span>
+                                    <span>日韩料理</span>
+                                    <span>西餐</span>
+                                    <span>聚餐宴请</span>
+                                    <span>烧烤烤肉</span>
+                                    <span>东北菜</span>
+                                    <span>川湘菜</span>
+                                    <span>江浙菜</span>
+                                    <span>香锅</span>
+                                    <span>烤鱼</span>
+                                    <span>粤港菜中式</span>
+                                    <span>烧烤/烤串</span>
+                                    <span>西北菜</span>
+                                    <span>咖啡</span>
+                                    <span>酒吧</span>
+                                    <span>茶馆</span>
+                                    <span>云贵菜</span>
+                                    <span>东南亚菜</span>
+                                    <span>海鲜素食</span>
+                                    <span>台湾/客家</span>
+                                    <span>创意菜</span>
+                                    <span>汤/粥/</span>
+                                    <span>炖菜</span>
+                                    <span>蒙餐</span>
+                                    <span>新疆菜</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-waimai" style="color: #ffb500;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">外卖</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">外卖</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>美团外卖</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-jiudian" style="color: #9b5e3e;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">酒店</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">酒店星级</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>经济型</span>
+                                    <span>舒适/三星</span>
+                                    <span>高档/四星</span>
+                                    <span>豪华/五星</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-xianxing_minsu" style="color: #ffb500;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">民宿</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">热门城市</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>上海</span>
+                                    <span>成都</span>
+                                    <span>北京</span>
+                                    <span>重庆</span>
+                                    <span>南京</span>
+                                    <span>杭州</span>
+                                    <span>广州</span>
+                                    <span>西安</span>
+                                    <span>武汉</span>
+                                    <span>厦门</span>
+                                    <span>长沙</span>
+                                    <span>青岛</span>
+                                    <span>深圳</span>
+                                    <span>天津</span>
+                                    <span>苏州</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-maoyandianying" style="color: #ff3d00;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">猫眼电影</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">热映电影</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>速度与激情</span>
+                                    <span>悬崖之上</span>
+                                    <span>我们在一起</span>
+                                    <span>哆啦A梦</span>
+                                    <span>伴我同行</span>
+                                    <span>寂静之地</span>
+                                    <span>情书</span>
+                                    <span>追虎擒龙</span>
+                                    <span>人之怒</span>
+                                    <span>扫黑</span>
+                                    <span>白蛇传</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-jipiaohuochepiao" style="color: #03a9f4;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">机票<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">火车票</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">机票</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>国内机票</span>
+                                    <span>国际机票</span>
+                                    <span>港澳台机票</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-ktv" style="color: #00bf96;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">休闲娱乐<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">KTV</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">休闲娱乐</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>足疗按摩</span>
+                                    <span>洗浴/汗蒸</span>
+                                    <span>酒吧</span>
+                                    <span>密室逃脱</span>
+                                    <span>轰趴馆</span>
+                                    <span>茶馆</span>
+                                    <span>私人影院</span>
+                                    <span>DIY手工坊</span>
+                                    <span>采摘/农家乐</span>
+                                    <span>网吧网咖</span>
+                                    <span>游乐游艺</span>
+                                    <span>VR桌面</span>
+                                    <span>游戏</span>
+                                    <span>真人CS</span>
+                                    <span>棋牌室</span>
+                                    <span>其他玩乐</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-shenghuofuwu" style="color: #00bf96;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">生活服务</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">生活服务</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>衣物/皮具</span>
+                                    <span>洗护</span>
+                                    <span>家政</span>
+                                    <span>搬家</span>
+                                    <span>运输</span>
+                                    <span>送水</span>
+                                    <span>充值缴费</span>
+                                    <span>服饰/鞋包</span>
+                                    <span>养护</span>
+                                    <span>开锁换锁</span>
+                                    <span>居家维修</span>
+                                    <span>管道疏通</span>
+                                    <span>家电维修</span>
+                                    <span>清洗电脑</span>
+                                    <span>维修手机</span>
+                                    <span>维修</span>
+                                    <span>证件照</span>
+                                    <span>肖像</span>
+                                    <span>摄影照片</span>
+                                    <span>冲印/图文</span>
+                                    <span>文印</span>
+                                    <span>商务服务</span>
+                                    <span>法律服务</span>
+                                    <span>文化传媒</span>
+                                    <span>成人用品</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-liren" style="color: #ff4081;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">丽人<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">美发<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">医学美容</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">丽人美发</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>美发</span>
+                                    <span>美甲</span>
+                                    <span>美睫</span>
+                                    <span>美容</span>
+                                    <span>美体</span>
+                                    <span>医学美容</span>
+                                    <span>瑜伽舞蹈</span>
+                                    <span>瘦身</span>
+                                    <span>纤体</span>
+                                    <span>韩式定妆</span>
+                                    <span>祛痘</span>
+                                    <span>纹身</span>
+                                    <span>化妆品</span>
+                                    <span>养发</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-diamond1" style="color: #ff4081;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">结婚<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">婚纱摄影<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">婚宴</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">结婚</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>婚纱摄影旅拍</span>
+                                    <span>个性写真</span>
+                                    <span>婚宴</span>
+                                    <span>婚庆公司</span>
+                                    <span>婚纱礼服</span>
+                                    <span>西服定制</span>
+                                    <span>婚戒首饰</span>
+                                    <span>婚车租赁</span>
+                                    <span>司仪主持</span>
+                                    <span>彩妆造型</span>
+                                    <span>婚礼跟拍</span>
+                                    <span>婚礼小礼品</span>
+                                    <span>婚礼服务</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-qinzi" style="color: #ff4081;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">亲子<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">儿童乐园<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">幼教</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">儿童乐园 </a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>早教中心</span>
+                                    <span>少儿英语</span>
+                                    <span>智力开发</span>
+                                    <span>托班</span>
+                                    <span>幼儿园</span>
+                                    <span>幼儿教育</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-yundongjianshen" style="color: #03a9f4;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">运动健身<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">健身中心</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">运动健身</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>健身中心</span>
+                                    <span>武术场馆</span>
+                                    <span>游泳馆</span>
+                                    <span>羽毛球馆</span>
+                                    <span>溜冰场</span>
+                                    <span>射箭馆</span>
+                                    <span>篮球场</span>
+                                    <span>网球馆</span>
+                                    <span>台球馆</span>
+                                    <span>乒乓球</span>
+                                    <span>足球场</span>
+                                    <span>高尔夫场</span>
+                                    <span>保龄球馆</span>
+                                    <span>体育场馆</span>
+                                    <span>马术场</span>
+                                    <span>壁球馆</span>
+                                    <span>更多运动</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-jiazhuang" style="color: #00bf96;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">家装<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">建材<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">家居</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">家装</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>地板</span>
+                                    <span>瓷砖</span>
+                                    <span>石材</span>
+                                    <span>橱柜</span>
+                                    <span>灯饰</span>
+                                    <span>照明</span>
+                                    <span>厨卫</span>
+                                    <span>洁具</span>
+                                    <span>油漆</span>
+                                    <span>涂料</span>
+                                    <span>集成吊顶</span>
+                                    <span>墙纸</span>
+                                    <span>墙艺</span>
+                                    <span>门窗</span>
+                                    <span>木材</span>
+                                    <span>板材</span>
+                                    <span>家用五金</span>
+                                    <span>电工</span>
+                                    <span>电料</span>
+                                    <span>楼梯</span>
+                                    <span>管材管件</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-xuexipeixun2" style="color: #00bf96;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">学习培训<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">音乐培训</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">音乐培训</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>钢琴</span>
+                                    <span>吉他</span>
+                                    <span>小提琴</span>
+                                    <span>古筝</span>
+                                    <span>架子鼓</span>
+                                    <span>声乐</span>
+                                    <span>其他培训</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-yiliaojiankang" style="color: #03a9f4;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">医疗健康<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">宠物<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">爱车</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">医疗健康</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>医院</span>
+                                    <span>齿科</span>
+                                    <span>口腔体检</span>
+                                    <span>中心药店</span>
+                                    <span>中医</span>
+                                    <span>健康服务</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <i class="iconfont icon-gewujiubakafeiting_x" style="color: #00bf96;"></i>
+                            <span class="nav-text">
+                                <span>
+                                    <a href="" class="link">酒吧<i class="iconfont icon-xiegan"></i></a>
+                                    <a href="" class="link">密室逃脱</a>
+                                </span>
+                                <i class="iconfont icon-you arrow"></i>
+                            </span>
+                            <div class="allsort displaynone">
+                                <div>
+                                    <span>
+                                        <a href="">玩乐</a>
+                                    </span>
+                                    <span>
+                                        <a href="">更多<i class="iconfont icon-you"></i></a>
+                                    </span>
+                                    <hr />
+                                </div>
+                                <div class="goodfood">
+                                    <span>KTV</span>
+                                    <span>酒吧</span>
+                                    <span>密室逃脱</span>
+                                    <span>游乐游艺</span>
+                                    <span>网吧网咖</span>
+                                    <span>私人影院</span>
+                                    <span>DIY手工坊</span>
+                                    <span>桌面游戏</span>
+                                    <span>采摘/农家乐</span>
+                                    <span>棋牌室</span>
+                                    <span>轰趴馆</span>
+                                    <span>真人CS</span>
+                                    <span>VR</span>
+                                    <span>其他玩乐</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right-banner">
+            <!-- 右部图片区域 -->
+            <div class="banner-row1">
+                <!-- 轮播图 -->
+                <div id="banner-slider" class="slider">
+                    <div class="slider-content">
+                        <a href="" id="links" target="_blank">
+                            <img src="#" alt="" id="image">
+                        </a>
+                        <div id="left">
+                            <!-- &lt; -->
+                            <i class="iconfont icon-back"></i>
+                        </div>
+                        <div id="right">
+                            <!-- &gt; -->
+                            <i class="iconfont icon-you"></i>
+                        </div>
+                        <div id="number">
+                            <ul>
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 图片小卡片 -->
+                <div class="shadowPic1"></div>
+                <!-- 登陆卡片 -->
+                <div class="banner-logincard">
+                    <div class="default">
+                        <div class="head-img-row"><img src="img\avatar.jpg" alt=""></div>
+                        <p class="user-name">Hi！你好</p>
+                        <a href="resiger.html" class="btn-login" id="regi">注册</a>
+                        <a href="login.html" class="btn-login" id="log">立即登录</a>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-row2">
+                <!-- 图片小卡片 -->
+                <a href="">
+                    <div class="shadowPic2"></div>
+                </a>
+
+
+                <!-- 图片小卡片 -->
+                <a href="">
+                    <div class="shadowPic3"></div>
+                </a>
+                <!-- 图片小卡片 -->
+                <a href="">
+                    <div class="shadowPic4"></div>
+                </a>
+                <!-- 应用下载小卡片 -->
+                <a href="">
+                    <div class="download-app">
+                        <div class="qrcode-box"><img src="./img/download-qr.png"></div>
+                        <p class="app-name">美团APP手机版</p>
+                        <p class="sl"><span class="red">1元起</span><span class="gary">吃喝玩乐</span></p>
+                    </div>
+
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 中间内容区域 -->
+    <!-- 猫眼电影 -->
+    <div class="maoyan-container">
+        <div id="maoyan">
+            <ul id="tag">
+                <span>猫眼电影</span>
+                <li class="lishow">正在上映</li>
+                <li>即将上映</li>
+                <span>全部<i class="right-arrow iconfont icon-you"></i></span>
+            </ul>
+            <div id="maoyan-movie">
+                <div class="maoyan-list" id="hotList">
+                    <div class="list-img-item" style="background-image: url(./img/mm1.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>观众评<span class="mark">9.5</span></b>
+                            </p>
+                            <p class="name">红色河</p>
+                            <span class="btn-buy">购票</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm2.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>观众评<span class="mark">9.5</span></b>
+                            </p>
+                            <p class="name">红色河</p>
+                            <span class="btn-buy">购票</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>观众评<span class="mark">9.5</span></b>
+                            </p>
+                            <p class="name">红色河</p>
+                            <span class="btn-buy">购票</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm4.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>观众评<span class="mark">9.5</span></b>
+                            </p>
+                            <p class="name">红色河</p>
+                            <span class="btn-buy">购票</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm5.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>观众评<span class="mark">9.5</span></b>
+                            </p>
+                            <p class="name">红色河</p>
+                            <span class="btn-buy">购票</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm6.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>观众评<span class="mark">9.5</span></b>
+                            </p>
+                            <p class="name">红色河</p>
+                            <span class="btn-buy">购票</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm1.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>观众评<span class="mark">9.5</span></b>
+                            </p>
+                            <p class="name">红色河</p>
+                            <span class="btn-buy">购票</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm1.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>观众评<span class="mark">9.5</span></b>
+                            </p>
+                            <p class="name">红色河</p>
+                            <span class="btn-buy">购票</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm1.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>观众评<span class="mark">9.5</span></b>
+                            </p>
+                            <p class="name">红色河</p>
+                            <span class="btn-buy">购票</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>观众评<span class="mark">9.5</span></b>
+                            </p>
+                            <p class="name">红色河</p>
+                            <span class="btn-buy">购票</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm4.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>观众评<span class="mark">9.5</span></b>
+                            </p>
+                            <p class="name">红色河</p>
+                            <span class="btn-buy">购票</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm5.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>观众评<span class="mark">9.5</span></b>
+                            </p>
+                            <p class="name">红色河</p>
+                            <span class="btn-buy">购票</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm6.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>观众评<span class="mark">9.5</span></b>
+                            </p>
+                            <p class="name">红色河</p>
+                            <span class="btn-buy">购票</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="maoyan-list" id="realeseList">
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>预约人数<span class="mark">234324</span></b>
+                            </p>
+                            <p class="name">天黑黑</p>
+                            <span class="btn-buy">预售</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>预约人数<span class="mark">234324</span></b>
+                            </p>
+                            <p class="name">天黑黑</p>
+                            <span class="btn-buy">预售</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>预约人数<span class="mark">234324</span></b>
+                            </p>
+                            <p class="name">天黑黑</p>
+                            <span class="btn-buy">预售</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>预约人数<span class="mark">234324</span></b>
+                            </p>
+                            <p class="name">天黑黑</p>
+                            <span class="btn-buy">预售</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>预约人数<span class="mark">234324</span></b>
+                            </p>
+                            <p class="name">天黑黑</p>
+                            <span class="btn-buy">预售</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>预约人数<span class="mark">234324</span></b>
+                            </p>
+                            <p class="name">天黑黑</p>
+                            <span class="btn-buy">预售</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>预约人数<span class="mark">234324</span></b>
+                            </p>
+                            <p class="name">天黑黑</p>
+                            <span class="btn-buy">预售</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>预约人数<span class="mark">234324</span></b>
+                            </p>
+                            <p class="name">天黑黑</p>
+                            <span class="btn-buy">预售</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>预约人数<span class="mark">234324</span></b>
+                            </p>
+                            <p class="name">天黑黑</p>
+                            <span class="btn-buy">预售</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>预约人数<span class="mark">234324</span></b>
+                            </p>
+                            <p class="name">天黑黑</p>
+                            <span class="btn-buy">预售</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>预约人数<span class="mark">234324</span></b>
+                            </p>
+                            <p class="name">天黑黑</p>
+                            <span class="btn-buy">预售</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>预约人数<span class="mark">234324</span></b>
+                            </p>
+                            <p class="name">天黑黑</p>
+                            <span class="btn-buy">预售</span>
+                        </div>
+                    </div>
+                    <div class="list-img-item" style="background-image: url(./img/mm3.jpg);">
+                        <img src="./img/imax.png" alt="">
+                        <div class="film-info">
+                            <p class="visistor">
+                                <b>预约人数<span class="mark">234324</span></b>
+                            </p>
+                            <p class="name">天黑黑</p>
+                            <span class="btn-buy">预售</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="maoyanLeft">
+                    <i class="iconfont icon-back"></i>
+                </div>
+                <div id="maoyanRight">
+                    <i class="iconfont icon-you"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 推荐民宿 -->
+    <div class="hotel-container">
+        <div id="hotel">
+            <ul id="tagH">
+                <span>推荐民宿</span>
+                <li>天津</li>
+                <li>济南</li>
+                <li>大连</li>
+                <li>太原</li>
+                <li>石家庄</li>
+                <li>秦皇岛</li>
+                <li>呼和浩特</li>
+                <li>潍坊</li>
+                <li>唐山</li>
+                <li>泰安</li>
+                <span>全部<i class="right-arrow iconfont icon-you"></i></span>
+            </ul>
+            <div id="hotel-movie">
+                <div class="hotel-list">
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/ll16.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>静雅全福元财富大厦北欧风大床房房源10—5</span></p>
+                                <p>
+                                    <span>整套1居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span>临朐县</span>
+                                </p>
+                                <p>
+                                    <span>￥148</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/ll16.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>静雅全福元财富大厦北欧风大床房房源10—5</span></p>
+                                <p>
+                                    <span>整套1居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span>临朐县</span>
+                                </p>
+                                <p>
+                                    <span>￥148</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/ll16.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>静雅全福元财富大厦北欧风大床房房源10—5</span></p>
+                                <p>
+                                    <span>整套1居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span>临朐县</span>
+                                </p>
+                                <p>
+                                    <span>￥148</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/ll16.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>静雅全福元财富大厦北欧风大床房房源10—5</span></p>
+                                <p>
+                                    <span>整套1居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span>临朐县</span>
+                                </p>
+                                <p>
+                                    <span>￥148</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/ll16.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>静雅全福元财富大厦北欧风大床房房源10—5</span></p>
+                                <p>
+                                    <span>整套1居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span>临朐县</span>
+                                </p>
+                                <p>
+                                    <span>￥148</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/ll16.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>静雅全福元财富大厦北欧风大床房房源10—5</span></p>
+                                <p>
+                                    <span>整套1居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span>临朐县</span>
+                                </p>
+                                <p>
+                                    <span>￥148</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hotel-list">
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh7.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh7.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh7.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh7.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh7.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh7.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hotel-list">
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh1.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh1.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh1.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh1.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh1.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh1.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hotel-list">
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh2.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh2.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh2.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh2.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh2.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh2.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hotel-list">
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh3.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh3.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh3.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh3.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh3.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh3.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hotel-list">
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="hotel-list">
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/ll16.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>静雅全福元财富大厦北欧风大床房房源10—5</span></p>
+                                <p>
+                                    <span>整套1居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span>临朐县</span>
+                                </p>
+                                <p>
+                                    <span>￥148</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/ll16.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>静雅全福元财富大厦北欧风大床房房源10—5</span></p>
+                                <p>
+                                    <span>整套1居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span>临朐县</span>
+                                </p>
+                                <p>
+                                    <span>￥148</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/ll16.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>静雅全福元财富大厦北欧风大床房房源10—5</span></p>
+                                <p>
+                                    <span>整套1居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span>临朐县</span>
+                                </p>
+                                <p>
+                                    <span>￥148</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/ll16.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>静雅全福元财富大厦北欧风大床房房源10—5</span></p>
+                                <p>
+                                    <span>整套1居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span>临朐县</span>
+                                </p>
+                                <p>
+                                    <span>￥148</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/ll16.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>静雅全福元财富大厦北欧风大床房房源10—5</span></p>
+                                <p>
+                                    <span>整套1居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span>临朐县</span>
+                                </p>
+                                <p>
+                                    <span>￥148</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh4.jpg" alt="">
+                                <img src="./img/ll16.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>静雅全福元财富大厦北欧风大床房房源10—5</span></p>
+                                <p>
+                                    <span>整套1居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span>临朐县</span>
+                                </p>
+                                <p>
+                                    <span>￥148</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hotel-list">
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh7.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh7.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh7.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh7.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh7.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh7.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hotel-list">
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh1.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh1.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh1.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh1.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh1.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh1.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hotel-list">
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh2.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh2.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh2.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh2.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh2.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hotel-list-item">
+                        <a href="#">
+                            <div class="hotel-list-card">
+                                <img src="./img/hh2.jpg" alt="">
+                                <img src="./img/II7.jpg" alt="">
+                            </div>
+                            <div class="hotel-list-info">
+                                <p><span>【Traveler's home •温馨】王家湾双地铁/汉阳人信汇/王家湾摩尔城高性价比独立房间</span></p>
+                                <p>
+                                    <span>整套3居室·</span>
+                                    <span>可住2人 | </span>
+                                    <span> 王家湾</span>
+                                </p>
+                                <p>
+                                    <span>￥136</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 猜你喜欢 -->
+    <div class="like-container">
+        <div class="like-nav">
+            <ul>
+                <li>猜你喜欢</li>
+                <li>为你甄选最合适的</li>
+            </ul>
+        </div>
+        <div class="like-list">
+            <div class="like-list-item">
+                <a href="#">
+                    <div class="like-list-card">
+                        <img src="./img/ll3.jpg" alt="">
+                    </div>
+                    <div class="like-list-info">
+                        <p><span>米琳新佳艺造型（鸿博家园店）</span></p>
+                        <p>
+                            <img src="./img/1620562035.jpg" alt="">
+                            <span>30个评价 </span>
+
+                        </p>
+                        <p><span>小红门</span></p>
+                        <p>
+                            <span>￥14起</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="like-list-item">
+                <a href="#">
+                    <div class="like-list-card">
+                        <img src="./img/ll3.jpg" alt="">
+                    </div>
+                    <div class="like-list-info">
+                        <p><span>米琳新佳艺造型（鸿博家园店）</span></p>
+                        <p>
+                            <img src="./img/1620562035.jpg" alt="">
+                            <span>30个评价 </span>
+
+                        </p>
+                        <p><span>小红门</span></p>
+                        <p>
+                            <span>￥14起</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="like-list-item">
+                <a href="#">
+                    <div class="like-list-card">
+                        <img src="./img/ll3.jpg" alt="">
+                    </div>
+                    <div class="like-list-info">
+                        <p><span>米琳新佳艺造型（鸿博家园店）</span></p>
+                        <p>
+                            <img src="./img/1620562035.jpg" alt="">
+                            <span>30个评价 </span>
+
+                        </p>
+                        <p><span>小红门</span></p>
+                        <p>
+                            <span>￥14起</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="like-list-item">
+                <a href="#">
+                    <div class="like-list-card">
+                        <img src="./img/ll3.jpg" alt="">
+                    </div>
+                    <div class="like-list-info">
+                        <p><span>米琳新佳艺造型（鸿博家园店）</span></p>
+                        <p>
+                            <img src="./img/1620562035.jpg" alt="">
+                            <span>30个评价 </span>
+
+                        </p>
+                        <p><span>小红门</span></p>
+                        <p>
+                            <span>￥14起</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="like-list-item">
+                <a href="#">
+                    <div class="like-list-card">
+                        <img src="./img/ll3.jpg" alt="">
+                    </div>
+                    <div class="like-list-info">
+                        <p><span>米琳新佳艺造型（鸿博家园店）</span></p>
+                        <p>
+                            <img src="./img/1620562035.jpg" alt="">
+                            <span>30个评价 </span>
+
+                        </p>
+                        <p><span>小红门</span></p>
+                        <p>
+                            <span>￥14起</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="like-list-item">
+                <a href="#">
+                    <div class="like-list-card">
+                        <img src="./img/ll3.jpg" alt="">
+                    </div>
+                    <div class="like-list-info">
+                        <p><span>米琳新佳艺造型（鸿博家园店）</span></p>
+                        <p>
+                            <img src="./img/1620562035.jpg" alt="">
+                            <span>30个评价 </span>
+
+                        </p>
+                        <p><span>小红门</span></p>
+                        <p>
+                            <span>￥14起</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="like-list-item">
+                <a href="#">
+                    <div class="like-list-card">
+                        <img src="./img/ll3.jpg" alt="">
+                    </div>
+                    <div class="like-list-info">
+                        <p><span>米琳新佳艺造型（鸿博家园店）</span></p>
+                        <p>
+                            <img src="./img/1620562035.jpg" alt="">
+                            <span>30个评价 </span>
+
+                        </p>
+                        <p><span>小红门</span></p>
+                        <p>
+                            <span>￥14起</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="like-list-item">
+                <a href="#">
+                    <div class="like-list-card">
+                        <img src="./img/ll3.jpg" alt="">
+                    </div>
+                    <div class="like-list-info">
+                        <p><span>米琳新佳艺造型（鸿博家园店）</span></p>
+                        <p>
+                            <img src="./img/1620562035.jpg" alt="">
+                            <span>30个评价 </span>
+
+                        </p>
+                        <p><span>小红门</span></p>
+                        <p>
+                            <span>￥14起</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="like-list-item">
+                <a href="#">
+                    <div class="like-list-card">
+                        <img src="./img/ll3.jpg" alt="">
+                    </div>
+                    <div class="like-list-info">
+                        <p><span>米琳新佳艺造型（鸿博家园店）</span></p>
+                        <p>
+                            <img src="./img/1620562035.jpg" alt="">
+                            <span>30个评价 </span>
+
+                        </p>
+                        <p><span>小红门</span></p>
+                        <p>
+                            <span>￥14起</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="like-list-item">
+                <a href="#">
+                    <div class="like-list-card">
+                        <img src="./img/ll3.jpg" alt="">
+                    </div>
+                    <div class="like-list-info">
+                        <p><span>米琳新佳艺造型（鸿博家园店）</span></p>
+                        <p>
+                            <img src="./img/1620562035.jpg" alt="">
+                            <span>30个评价 </span>
+
+                        </p>
+                        <p><span>小红门</span></p>
+                        <p>
+                            <span>￥14起</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <!-- 美团导航区域 -->
+    <nav class="botton-nav">
+        <div class="botton-nav-title">美团导航</div>
+        <dl>
+            <div>
+                <dt class=" b-n-subtitle">热门分类</dt>
+                <div class="b-n-sublist">
+                    <dd><a href="" title="南宁">南宁</a></dd>
+                    <dd><a href="" title="南京">南京</a></dd>
+                    <dd><a href="" title="大连">大连</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                </div>
+            </div>
+        </dl>
+        <dl>
+            <div class="b-n-content">
+                <dt class=" b-n-subtitle">热门城市</dt>
+                <div class="b-n-sublist">
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                </div>
+            </div>
+        </dl>
+        <dl>
+            <div class="b-n-content">
+                <dt class=" b-n-subtitle">周边热门</dt>
+                <div class="b-n-sublist">
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                    <dd><a href="" title="天津">天津</a></dd>
+                    <dd><a href="" title="杭州">杭州</a></dd>
+                </div>
+            </div>
+        </dl>
+    </nav>
+
+    <!-- 页面尾部区域 -->
+    <footer class="com_footer">
+        <div class="footer-content">
+            <div class="f-c-link">
+                <div class="f-c-column">
+                    <dl>
+                        <dt>用户帮助</dt>
+                        <dd><a href="">申请退款</a></dd>
+                        <dd><a href="">常见问题</a></dd>
+                        <dd><a href="">隐私政策</a></dd>
+                        <dd><a href="">反诈骗公告</a></dd>
+                        <dd><a href="">消费者权益保障</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>美团服务</dt>
+                        <dd><a href="">美团外卖</a></dd>
+                        <dd><a href="">美团酒店</a></dd>
+                        <dd><a href="">猫眼电影</a></dd>
+                        <dd><a href="">美团配送</a></dd>
+                        <dd><a href="">美团云</a></dd>
+                        <dd><a href="">大众点评</a></dd>
+                        <dd><a href="">美团民宿</a></dd>
+                        <dd><a href="">无人配送</a></dd>
+                        <dd><a href="">企业用餐、企业差旅</a></dd>
+                    </dl>
+                </div>
+                <div class="f-c-column">
+                    <dl>
+                        <dt>商家合作</dt>
+                        <dd><a href="#">美食商家入驻(非外卖)</a></dd>
+                        <dd><a href="#">美团外卖开店申请</a></dd>
+                        <dd><a href="#">美团餐饮系统</a></dd>
+                        <dd><a href="#">美团配送合作申请</a></dd>
+                        <dd><a href="#">美团餐饮培训</a></dd>
+                        <dd><a href="#">酒店商家入驻</a></dd>
+                        <dd><a href="#">境内度假商家入驻</a></dd>
+                        <dd><a href="#">综合商家入驻</a></dd>
+                        <dd><a href="#">美团民宿房东商家入驻</a></dd>
+                        <dd><a href="#">商家开票申请</a></dd>
+                        <dd><a href="#">美团智能收银机</a></dd>
+                        <dd><a href="#">美团开放平台</a></dd>
+                        <dd><a href="#">美团收单</a></dd>
+                        <dd><a href="#">免费使用美团排队</a></dd>
+                        <dd><a href="#">快驴进货商家合作</a></dd>
+                        <dd><a href="#">美团闪购商家入驻</a></dd>
+                    </dl>
+
+                </div>
+                <div class="f-c-column">
+                    <dl>
+                        <dt>合作商招募</dt>
+                        <dd><a href="#">到店餐饮合作商招募</a></dd>
+                        <dd><a href="#">到店综合业务合作商招募</a></dd>
+                        <dd><a href="#">美团联盟</a></dd>
+                        <dd><a href="#">美团收银招募线上分销商</a></dd>
+                        <dd><a href="#">美团收银合作商招募</a></dd>
+                        <dd><a href="#">美团收单合作商招募</a></dd>
+                        <dd><a href="#">美团充电宝合作商招募</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>美团规则</dt>
+                        <dd><a href="#">规则中心</a></dd>
+                        <dd><a href="#">规则目录</a></dd>
+                        <dd><a href="#">规则评议院</a></dd>
+                    </dl>
+                </div>
+                <div class="f-c-column">
+                    <dl>
+                        <dt>关注美团</dt>
+                        <dd><a href="#">美团新浪微博</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>公司信息</dt>
+                        <dd><a href="#">关于我们</a></dd>
+                        <dd><a href="#">投资者关系</a></dd>
+                        <dd><a href="#">加入我们</a></dd>
+                        <dd><a href="#">商户诚信公约及管理办法</a></dd>
+                        <dd><a href="#">保险经纪资质</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>廉正举报</dt>
+                        <dd><a href="#">廉正举报平台</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>知识产权</dt>
+                        <dd><a href="#">知识产权维权平台</a></dd>
+                    </dl>
+                </div>
+                <div class="f-c-column">
+                    <dl>
+                        <dt>消费者服务热线</dt>
+                        <dd><a href="#">外卖消费者：10109777</a></dd>
+                        <dd><a href="#">猫眼消费者：10105335</a></dd>
+                        <dd><a href="#">其他消费者：10107888</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>商家服务热线</dt>
+                        <dd><a href="#">外卖&餐饮商家：10105557</a></dd>
+                        <dd><a href="#">休闲娱乐、丽人、ktv、教育、结婚、亲子、家装等商家：10100107</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>投诉举报专区</dt>
+                        <dd><a href="#">违法和不良信息举报电话：4006018900</a></dd>
+                        <dd><a href="#">举报邮箱：tousujubao@meituan.com</a></dd>
+                        <dd><a href="#">网上有害信息举报</a></dd>
+                        <dd><a href="#">注：以上渠道均可投诉举报涉未成年人的违法和不良信息</a></dd>
+                    </dl>
+
+                    <dl>
+                        <dd><a href="#">商家自助入驻美团入口</a></dd>
+                    </dl>
+                    <dl>
+                        <dd><a href="#">供应商注册入口</a></dd>
+                    </dl>
+
+                </div>
+            </div>
+            <div class="f-c-right">
+                <div class="f-c-r-left">
+                    <p><a href="">©美团网团购 meituan.com</a>
+                        <a href="">京ICP证070791号</a>
+                        <a href="">京ICP备10211739号-1</a>
+                    </p>
+                    <p>
+                        <a href="">广播电视节目制作经营许可证（京）字第03889号</a>
+                    </p>
+                    <p><a href="">食品经营许可证互联网药品信息服务资格证</a>
+                        <a href="">(京)-经营性-2017-0014-1</a>
+                    </p>
+                    <p>
+                        <a href="">医疗器械网络交易服务第三方平台备案：（京）网械平台备字[2018]第00004号</a>
+                    </p>
+                    <p>
+                        <a href="">平台EDI许可证</a>
+                    </p>
+                </div>
+                <div class="f-c-r-right">
+                    <div>
+
+                        <span><img src="./img/jing-icon.png" alt=""><a href="">京公网安备 11000002002052号</a></span>
+                    </div>
+                    <div class="r-right-second">
+                        <a class="im1" href=""></a>
+                        <a class="im2" href=""></a>
+                        <span><img src="./img/cha-icon.png" style="width: 38px;height: 38px;line-height: 50px;"
+                                alt=""><a href="">京公网安备 11000002002052号</a></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // 获取城市信息
+        
+        var cityArr = document.getElementById("cityArr");
+        var currentCity = document.getElementsByClassName("current-city");
+        var url = document.location.toString(); //获取url地址
+        function getQueryString(key) {
+            var reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
+            var result = window.location.search.substr(1).match(reg);
+            return result ? decodeURIComponent(result[2]) : null;
+        }
+        var arr = getQueryString('city');
+        var city = [];
+        city = arr.split("-"); //字符分割
+        var oA0 = document.getElementById('c0');
+        var oA1 = document.getElementById('c1');
+        var oA2 = document.getElementById('c2');
+        var oA3 = document.getElementById('c3');
+        oA0.innerText = city[0];
+        oA1.innerText = city[0];
+        oA2.innerText = city[1];
+        oA3.innerText = city[2];
+    </script>
+    <script src="./js/changeBanner.js"></script>
+    <script src="./js/dropDown.js"></script>
+    <script src="./js/changeMovie.js"></script>
+</body>
+
+</html>

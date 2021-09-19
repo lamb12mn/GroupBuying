@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    width: 100%;
+    height: 117px;
+}
+
+.header-main {
+    /* position: relative; */
+    width: 980px;
+    height: 47px;
+    margin: 0 auto;
+    margin: 40px auto 30px;
+    /* background: red; */
+}
+
+.header-main a {
+    display: block;
+    width: 130px;
+    height: 47px;
+    background-position: 0 !important;
+    background-size: contain !important;
+    background-image: url(../img/logo.png);
+}
+
+/* 登陆页面中间部分 */
+.main-content {
+    width: 100%;
+    margin-bottom: 30px;
+    background: #ffffff;
+}
+
+.main-content {
+    width: 980px;
+    margin: 0 auto;
+    margin: 0 auto 70px;
+}
+
+.main-content-left {
+    float: left;
+    height: 370px;
+    width: 480px;
+    margin: 0 115px 0 0;
+}
+
+.main-content-right {
+    float: left;
+}
+
+.main-content-right form span {
+    font-weight: 400;
+    color: #666;
+}
+
+.main-content-right form span a {
+    position: relative;
+    padding-right: 16px;
+    color: #666;
+    float: right;
+    font-size: 12px;
+}
+
+.main-content-right form span a i {
+    width: 14px !important;
+    height: 14px !important;
+    background: url(http://s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/mobile.24bd95a.png) !important;
+    background-size: auto;
+    background-size: contain !important;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -7px;
+}
+.display-none{
+    display: block;
+    width: 100px;
+    height: 18px;
+    margin: 10px 0px;
+    /* border: 1px solid red; */
+}
+.phone {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    margin: 8px 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.phone .plus {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+}
+
+.phone span {
+    color: #646464;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.phone span a {
+    position: relative;
+    padding-right: 16px;
+    color: #666;
+    float: right;
+    font-size: 12px;
+}
+
+.phone i {
+    width: 7px;
+    height: 18px;
+    line-height: 18px;
+    display: inline-block;
+    margin-right: 4px;
+    position: relative;
+    bottom: 2px;
+}
+
+.phone input {
+    width: 100%;
+    height: 28px;
+    padding-left: 5px;
+    border: none;
+    max-width: 200px !important;
+}
+
+.pass i {
+    width: 18px;
+    height: 18px;
+    background-position: -1250px -527px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 8px;
+    line-height: 18px;
+    background-image: url(http://s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.cb7cf7c.png);
+}
+
+.pass {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    /* margin: 8px 0; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.pass input {
+    width: 100%;
+    height: 28px;
+    margin-left: 35px;
+    padding-left: 5px;
+    border: none;
+    max-width: 200px !important;
+}
+
+.word {
+    padding-top: 0;
+    font-size: 12px;
+    padding-left: 0;
+    padding-bottom: 8px;
+    position: relative;
+    padding: 8px 0 12px 110px;
+}
+
+.word a {
+    float: right;
+    color: #FE8C00;
+}
+
+.btn button {
+    width: 270px;
+    height: 34px;
+    margin-top: 10px;
+    background: #ffc200;
+    border-radius: 5px;
+}
+
+.forget {
+    float: left;
+    margin-top: 20px;
+    font-size: 12px;
+    padding-left: 0;
+    padding-bottom: 8px;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 12px;
+
+}
+
+.forget a {
+    color: #FE8C00;
+    font-size: 12px;
+
+}
+
+.line {
+    margin-top: 70px;
+    color: #666;
+
+}
+
+.line h3 {
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #CCC;
+    width: 100%;
+    height: 0;
+    overflow: visible;
+}
+
+.line h3 span {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -75px;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    background: #f8f8f8;
+}
+
+.picIcon {
+    padding-left: 88px;
+}
+
+.picIcon .tencent {
+    float: left;
+    margin-right: 20px;
+    background-position: -1250px -491px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/net.png);
+    cursor: pointer;
+
+}
+
+.picIcon .tencent:hover {
+    background-position: -1250px -509px;
+}
+
+.picIcon .sina {
+    float: left;
+    margin-right: 20px;
+    background-position: -1250px -599px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/net.png);
+    cursor: pointer;
+}
+
+.picIcon .sina :hover {
+    background-position: -1250px -545px;
+}
+
+/* 页脚 */
+.footer {
+    margin: 70px auto 30px;
+    clear: both;
+    width: 980px;
+    font-size: 10px;
+    color: #999;
+}
+
+.footer .site-info {
+    margin-top: 400px;
+    margin-bottom: 20px;
+    padding: 12px 0;
+    line-height:44px ;
+    height:44px ;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+}
+
+.footer .site-info ul {
+    float: left;
+    width: 594px;
+    height: 40px;
+    color: #EEE;
+}
+
+.footer .site-info ul li {
+    float: left;
+    margin: 5px 0;
+    padding: 0 16px;
+    padding-left: 16px;
+    line-height: 40px;
+    height: 40px;
+    border-right: 1px solid #EEE;
+}
+.footer .copyright {
+    text-align: left;
+    clear: both;
+    font-size: 12px;
+    font-family: initial;
+}

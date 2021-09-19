@@ -1,0 +1,565 @@
+
+/* 猫眼电影 */
+.maoyan-container {
+    width: 100%;
+    height: 346px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#maoyan {
+    width: 1193px;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+#tag {
+    width: 1193px;
+    height: 46px;
+    line-height: 46px;
+    background-color: #fc4258;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#tag span:first-child {
+    float: left;
+    font-size: 18px;
+    padding-left: 20px;
+    color: #fff;
+
+}
+
+#tag span:last-child {
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+    line-height: 46px;
+    cursor: pointer;
+}
+
+#tag li {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: inline;
+    margin-right: 0px;
+    color: white;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+/* #tag li:hover:after {
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 14px solid #fff;
+    content: " ";
+    display: block;
+    width: 2px;
+    height: 0;
+    top: 37px;
+    left: 0px;
+    right: 0;
+    margin: auto;
+    display: none;
+} */
+
+.current::after{
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 14px solid #fff;
+    content: " ";
+    display: block;
+    width: 2px;
+    height: 0;
+    top: 37px;
+    left: 0px;
+    right: 0;
+    margin: auto;
+    display: block;
+}
+.maoyan-movie {
+    width: 100%;
+    height: 296px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+#maoyan-movie #hotList{
+    width:2500px;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    left: -700px;
+    border-end-end-radius: 10px;
+}
+#maoyan-movie #realeseList{
+    width:2500px;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    left: -228px;
+    border-end-end-radius: 10px;
+}
+
+.maoyan-list .list-img-item {
+    margin-top: 10px;
+    width: 214px;
+    height: 296px;
+    margin-left: 10px;
+    float: left;
+    margin-right: 10px;
+    border: red;
+
+
+}
+
+.maoyan-list .list-img-item img {
+    display: inline-block;
+    width: 55px;
+    height: 22px;
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -6px;
+}
+
+.maoyan-list .list-img-item .film-info {
+    height: 100px;
+    width: 214px;
+    position: absolute;
+    bottom: 0px;
+
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(29, 45, 55, 0.80) 99%);
+}
+
+.maoyan-list .list-img-item .visistor {
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+    margin-top: 48px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.maoyan-list .list-img-item .mark {
+    font-size: 16px;
+    padding-left: 5px;
+    color: #FD9827;
+    font-weight: 500;
+}
+
+.maoyan-list .list-img-item .name {
+    text-align: left;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 16px;
+    white-space: nowrap;
+    width: 6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+}
+
+.maoyan-list .list-img-item .btn-buy {
+    background: #FF4949;
+    border-radius: 100px;
+    color: #fff;
+    padding: 2px 12px 3px 12px;
+    font-size: 14px;
+    position: relative;
+    top: -24px;
+    cursor: pointer;
+    line-height: 20px;
+    text-align: center;
+    float: right;
+    right: 10px;
+}
+
+/* 猫眼电影箭头 */
+/* .maoyan-movie:hover #maoyanLeft,
+.maoyan-movie:hover #maoyanRight {
+    display: block;
+} */
+
+#maoyanLeft,
+#maoyanRight {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 850px;
+    cursor: pointer;
+    display: none;
+}
+
+#maoyanRight {
+    margin-left: 1163px;
+}
+/* 猫眼电影 */
+
+
+.hotel-container {
+    display: block;
+    width: 1193px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+/* 民宿导航 */
+.hotel-container {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#hotel {
+    width: 1193px;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+#tagH {
+    width: 1193px;
+    height: 46px;
+    line-height: 46px;
+    background: #f3b74a;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#tagH span:first-child {
+    float: left;
+    font-size: 18px;
+    padding-left: 20px;
+    color: #fff;
+
+}
+
+#tagH span:last-child {
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+    line-height: 46px;
+    cursor: pointer;
+}
+
+#tagH li {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: inline;
+    margin-right: 0px;
+    color: white;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+/* #tagH li:hover:after {
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 14px solid #fff;
+    content: " ";
+    display: block;
+    width: 2px;
+    height: 0;
+    top: 37px;
+    left: 0px;
+    right: 0;
+    margin: auto;
+    display: block;
+} */
+
+/* #tagH li:nth-child(2)::after {
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 14px solid #fff;
+    content: " ";
+    display: block;
+    width: 2px;
+    height: 0;
+    top: 37px;
+    left: 0px;
+    right: 0;
+    margin: auto;
+    display: block;
+} */
+
+.hotel-movie {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+#hotel-movie .hotel-list {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    background: #fff;
+    border-end-end-radius: 10px;
+}
+
+.hotel-list .hotel-list-item {
+    float: left;
+    margin-left: 18px;
+    margin-top: 10px;
+
+}
+
+.hotel-list .hotel-list-item .hotel-list-card {
+
+    position: relative;
+}
+
+.hotel-list-card img:first-child {
+    width: 370px;
+    height: 208px;
+}
+
+.hotel-list-card img:last-child {
+    border: 2px solid #FFFFFF;
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    bottom: -12px;
+    right: 15px;
+    border-radius: 50%;
+
+}
+
+.hotel-list-info {
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+
+.hotel-list-info p:first-child span {
+    width: 297px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 7px 0;
+    display: inline-block;
+}
+
+.hotel-list-info p:nth-child(2) {
+    margin: 7px 0;
+}
+
+.hotel-list-info p:last-child span {
+    color: #FF6600;
+    padding: 4px 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* 猜你喜欢导航区域 */
+.like-container {
+    display: block;
+    width: 1193px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.like-container .like-nav {
+    display: block;
+    width: 1193px;
+    height: 46px;
+    margin: 0 auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #45bdcf;
+    position: relative;
+    
+}
+
+.like-nav ul li {
+    display: inline;
+    line-height: 46px;
+   
+}
+
+.like-nav ul li:first-child {
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+
+.like-nav ul li:nth-child(n) {
+    padding: 0 5px;
+}
+.like-nav ul li:nth-child(n)::after {
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 14px solid #fff;
+    content: " ";
+    display: block;
+    width: 2px;
+    height: 0;
+    top: 37px;
+    left: -900px;
+    right: 0;
+    margin: auto;
+    display: block;
+}
+.like-nav ul li span {
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+}
+
+.like-list {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    background: #fff;
+    border-end-end-radius: 10px;
+}
+
+.like-list .like-list-item {
+    float: left;
+    margin-left: 18px;
+    margin-top: 10px;
+    width: 18%;
+
+}
+
+.like-list .like-list-item .like-list-card {
+    position: relative;
+}
+
+.like-list-card img {
+    width: 100%;
+    font-size: 0;
+}
+
+
+
+.like-list-info {
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.like-list-info p:first-child span {
+    color: #222222;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 7px 0;
+    width: 297px;
+}
+
+.like-list-info p:nth-child(n-1) {
+    margin: 7px 0;
+}
+
+.like-list-info p:last-child span {
+    color: #FF6600;
+    padding: 4px 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* 美团导航区域 */
+.botton-nav {
+    display: block;
+    width: 1193px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.botton-nav .botton-nav-title {
+    width: auto;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 6px;
+    line-height: 44px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+}
+
+.b-n-sublist {
+    width: 1090px;
+    height: auto;
+    padding-top: 12px;
+    float: left;
+    border-bottom: 1px solid #E5E5E5;
+    overflow: hidden;
+}
+
+.botton-nav dl {
+    width: 100%;
+    height: auto;
+}
+
+.botton-nav dl .b-n-content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.botton-nav dl dt {
+    width: 100px;
+    height: 100%;
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222222;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.botton-nav dl dd {
+    width: 100px;
+    height: 17px;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 13px;
+    float: left;
+}
+
+.botton-nav dl dd a {
+    display: block;
+    width: 80px;
+    cursor: pointer;
+    color: #666666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.botton-nav dl dd a:hover {
+    color: #FF6600;
+}
+
